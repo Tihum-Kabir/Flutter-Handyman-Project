@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 //Icons need to be given picture later
 class MyHomePage extends StatelessWidget {
   static const List<Map<String, String>> services = [
