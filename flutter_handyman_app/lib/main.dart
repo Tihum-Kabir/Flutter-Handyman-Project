@@ -1,7 +1,10 @@
-//Start of the Flutter Handyman Services app
+// main.dart
 import 'package:flutter/material.dart';
+import 'firebase.dart'; // Import Firebase helper functions for authentication and Firestore
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initializeFirebase(); // Initialize Firebase when app starts
   runApp(MyApp());
 }
 
@@ -166,7 +169,6 @@ class MyHomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors
                               .white, // Set the background color of the tiles to white
-
                           borderRadius: BorderRadius.circular(
                             15.0,
                           ), // Rounded corners
