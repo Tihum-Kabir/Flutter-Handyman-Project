@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CleanerPage extends StatelessWidget {
-  const CleanerPage({Key? key}) : super(key: key);
+  const CleanerPage({super.key});
 
   @override
   Widget build(BuildContext context) {

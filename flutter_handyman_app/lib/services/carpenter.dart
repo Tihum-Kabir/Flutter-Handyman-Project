@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CarpenterPage extends StatelessWidget {
-  const CarpenterPage({Key? key}) : super(key: key);
+  const CarpenterPage({super.key});
 
   @override
   Widget build(BuildContext context) {

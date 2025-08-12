@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PlumberPage extends StatelessWidget {
-  const PlumberPage({Key? key}) : super(key: key);
+  const PlumberPage({super.key});
 
   @override
   Widget build(BuildContext context) {

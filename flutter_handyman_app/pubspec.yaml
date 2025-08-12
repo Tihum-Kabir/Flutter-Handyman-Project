@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  mongo_dart: ^0.7.2  # Add MongoDB dependency (remove Firebase dependencies)
+  mongo_dart: ^0.10.5  # Add MongoDB dependency (remove Firebase dependencies)
   cupertino_icons: ^1.0.8
 
 dev_dependencies:

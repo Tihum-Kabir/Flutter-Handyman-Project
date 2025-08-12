@@ -6,11 +6,11 @@ class ServiceCard extends StatelessWidget {
   final String route;
 
   const ServiceCard({
-    Key? key,
+    super.key,
     required this.title,
     required this.icon,
     required this.route,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

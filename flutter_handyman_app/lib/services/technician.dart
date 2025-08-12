@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TechnicianPage extends StatelessWidget {
-  const TechnicianPage({Key? key}) : super(key: key);
+  const TechnicianPage({super.key});
 
   @override
   Widget build(BuildContext context) {

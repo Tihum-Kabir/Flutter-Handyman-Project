@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PainterPage extends StatelessWidget {
-  const PainterPage({Key? key}) : super(key: key);
+  const PainterPage({super.key});
 
   @override
   Widget build(BuildContext context) {
