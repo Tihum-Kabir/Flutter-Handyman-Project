@@ -1,0 +1,9 @@
+{
+  "name": "John Doe",
+  "category": "plumber",
+  "services": ["Leak Repair", "Pipe Installation"],
+  "rating": 4.5,
+  "photoUrl": "https://example.com/photo.jpg",
+  "email": "john@example.com",
+  "phone": "555‑1234"
+}
