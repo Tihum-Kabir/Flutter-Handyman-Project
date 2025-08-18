@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870963296611",
+    "project_id": "ghorerkaaj-146a4",
+    "storage_bucket": "ghorerkaaj-146a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870963296611:android:52d5a50613fbc59e03fb56",
+        "android_client_info": {
+          "package_name": "com.example.flutter_handyman_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHEJIn6CWdPPqgLufaYlIIaw7-64sMcvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

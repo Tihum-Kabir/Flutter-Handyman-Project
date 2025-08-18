@@ -1,0 +1,28 @@
+{
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "ghorerkaaj-146a4",
+          "appId": "1:870963296611:ios:b8e79bf06813342103fb56",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ghorerkaaj-146a4",
+          "configurations": {
+            "ios": "1:870963296611:ios:b8e79bf06813342103fb56"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
