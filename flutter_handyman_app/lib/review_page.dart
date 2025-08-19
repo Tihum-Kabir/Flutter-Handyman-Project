@@ -51,9 +51,18 @@ class _ReviewPageState extends State<ReviewPage> {
       // Fetch user name for display
       final userDoc = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
       final userName = userDoc.data()?['name'] ?? user.email ?? 'Anonymous';
-      // Add review to the handyman's reviews subcollection
+      // Add review to the handyman's reviews subcollection.  The Firestore
+      // security rules require that the review document ID matches the
+      // related orderId and that the orderId is also stored in the
+      // document data.  Using `doc(widget.orderId)` instead of `add()`
+      // ensures the doc ID matches the orderId.  See firestore.rules
+      // for details.
       final handymanRef = FirebaseFirestore.instance.collection('handymen').doc(widget.handymanId);
-      await handymanRef.collection('reviews').add({
+      await handymanRef
+          .collection('reviews')
+          .doc(widget.orderId)
+          .set({
+        'orderId': widget.orderId,
         'userId': user.uid,
         'userName': userName,
         'rating': _rating,
