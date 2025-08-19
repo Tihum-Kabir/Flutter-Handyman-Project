@@ -1,5 +1,8 @@
 
-platform :ios, '13.0'
+# Set the minimum deployment target to iOS 15.0.  Newer versions of
+# cloud_firestore, firebase_auth and other FlutterFire plugins require at
+# least iOS 15.0.  See https://flutter.dev/to/ios-deploy for details.
+platform :ios, '15.0'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
