@@ -24,7 +24,7 @@ Prerequisites
    Open VS Code, go to the Extensions view, and search for 'Flutter' to install the plugin.
 4. Clone the repository
    Use the following command to clone the repository to your local machine:
-   git clone https://github.com/yourusername/handyman-services-app.git
+   git clone [https://github.com/yourusername/handyman-services-app.git](https://github.com/Tihum-Kabir/Flutter-Handyman-Project.git)
 5. Navigate to the project directory
    cd handyman-services-app
 6. Install dependencies
