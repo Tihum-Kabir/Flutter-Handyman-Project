@@ -1,0 +1,26 @@
+{
+  "name": "printing",
+  "version": "1.0.0",
+  "summary": "Flutter printing plugin",
+  "description": "Plugin that allows Flutter apps to generate and print documents to iOS compatible printers",
+  "homepage": "https://pub.dev/packages/printing",
+  "license": {
+    "type": "Apache2"
+  },
+  "authors": {
+    "David PHAM-VAN": "dev.nfet.net@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DavBfr/dart_pdf.git",
+    "branch": "master"
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": []
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "4.2",
+  "swift_version": "4.2"
+}

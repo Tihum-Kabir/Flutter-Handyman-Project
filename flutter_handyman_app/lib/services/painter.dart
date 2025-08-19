@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
+import 'handyman_list.dart';
 
+/// Page listing all painters available for hire.
 class PainterPage extends StatelessWidget {
   const PainterPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Painter')),
-      body: Center(child: Text('Painter Service Details')),
-    );
+    return const HandymanListPage(category: 'Painter');
   }
 }
 

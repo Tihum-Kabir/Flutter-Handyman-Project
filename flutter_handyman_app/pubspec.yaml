@@ -1,5 +1,5 @@
-name: flutter_handyman_app
-description: "A new Flutter project."
+name: handyman_app
+description: "Handyman App – an on-demand handyman services platform."
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -10,17 +10,50 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  mongo_dart: ^0.10.5  # Add MongoDB dependency (remove Firebase dependencies)
+  # Firebase dependencies
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  # Additional utilities
   cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  pdf: ^3.11.0
+  printing: ^5.13.0
+  # Removed Google and Apple sign-in packages.  Only email/password auth
+  # is supported.  See README for details.
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  # Tool to generate application launcher icons from a single source image.
+  # After editing this file, run `flutter pub run flutter_launcher_icons:main`
+  # to generate icons for Android and iOS using the image at
+  # assets/images/app_icon.png.
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   assets:
     - assets/images/
+    # Include the custom background image provided by the user
+    - assets/images/background_custom.png
+    # Splash screen logos added for the launch screen.  The new
+    # splash_logo_center.png is cropped around the text and icon and will be
+    # centered in the splash screen.  The original splash_logo.jpg and
+    # splash_logo_new.png are kept for reference but unused.
+    - assets/images/splash_logo_center.png
+    # App icon image used by flutter_launcher_icons
+    - assets/images/app_icon.png
   uses-material-design: true
+
+# Configuration for the flutter_launcher_icons package.  This section
+# tells the icon generator where to find the source image and which
+# platforms to generate icons for.  See the plugin documentation for
+# more details.
+flutter_icons:
+  image_path: "assets/images/app_icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
 
 
