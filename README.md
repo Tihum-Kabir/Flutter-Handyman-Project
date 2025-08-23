@@ -1,5 +1,6 @@
-Handyman Services App
-Welcome to the Handyman Services App! This app is designed to make it easier to book skilled professionals for all your home service needs. Whether you need plumbing, electrical work, or general repairs, this app connects you with reliable handymen in your area. Below you'll find the necessary setup and installation instructions to get the app up and running.
+*Handyman Services App*
+
+Welcome to the GhorerKaaj! This app is designed to make it easier to book skilled professionals for all your home service needs. Whether you need plumbing, electrical work, or general repairs, this app connects you with reliable handymen in your area. Below you'll find the necessary setup and installation instructions to get the app up and running.
 Table of Contents
 1.	1. Overview
 2.	2. Technologies Used
